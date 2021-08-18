@@ -1,0 +1,74 @@
+body{
+    background-color: palegoldenrod;
+    background-image: url(bg.jpg);
+}
+
+header{
+    background-color: blue;
+    padding : 30px;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: left;
+    position:sticky;
+    top:0;
+}
+
+a{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    font-size: xx-large;
+}
+
+
+table{
+    background-color: rgba(89, 177, 189, 0.336);
+    min-width: 70%;
+    border-radius: 4%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+th{
+    border-bottom:2px whitesmoke solid;
+    color:red;
+    font-size: 30px;
+}
+
+td{
+    font-size: larger;
+    font-weight: 500;
+    color: blue;
+    padding:10px
+}
+
+tr:hover{
+    background-color: rgba(89, 177, 189, 0.404);
+    padding: 15px;
+}
+td:hover{
+    padding: 15px;
+    font-size: x-large;
+    font-weight: 1000;
+}
+
+
+
+button{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.del{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10%;
+}
